@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Appendre Git</title>
+</head>
+<body>
+	<h1>Les bases de Git</h1>
+	<h2>git init</h2>
+	<p>Cette commande permet d'initialiser git sur le projet voulu</p>
+	<h2>git status</h2>
+	<p>Nous donne le status des fichiers:</p>
+	<ul>
+		<li>untracked (non suivi): le fichier n'est pas suivi par git</li>
+		<li>added (ajouté): le fichier vient d'être ajouté à la zone de suivi</li>
+		<li>modifié (not staged): le fichier est modifié, mais ces modifications ne feront pas partie de la prochaine sauvegarde</li>
+		<li>modifié (staged): le fichier est modifié, ET ces modifications feront partie de la prochaine sauvegarde</li>
+	</ul>
+	<h2>git add monFichier</h2>
+	<p>Cette commande ajoutte monFichier à la zone de suivi</p>
+	<h2>git commit -m "commentaire à ajouter"</h2>
+	<p>Cette commande permet de faire une sauvegarde de notre travail à cet instant précis. Ne sera sauvegardé que si qui est présent dans la zone de suivie</p>
+</body>
+</html>
